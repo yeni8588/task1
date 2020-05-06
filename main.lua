@@ -134,14 +134,6 @@ function love.keypressed(key)
         love.event.quit()
     end
 
-    if key == 'p' then
-        if gpause then
-            gpause = false
-        else 
-            gpause = true
-        end
-    end
-
 end
 
 --[[

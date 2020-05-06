@@ -46,6 +46,7 @@ function ScoreState:update(dt)
         silver = false
         gold = false
     end
+    
 end
 
 function ScoreState:render()

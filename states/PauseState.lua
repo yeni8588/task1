@@ -19,6 +19,7 @@ function PauseState:enter()
 	sounds['music']:pause()
 	sounds['pop']:play()
 	p = false
+	gpause = true
 end
 
 function PauseState:render( ... )
@@ -30,5 +31,5 @@ end
 
 function PauseState:exit( ... )
 	sounds['music']:play()
-	
+	gpause = false
 end
